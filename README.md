@@ -199,6 +199,13 @@ Once the cluster is created on MongoDB, we need to do three things to complete t
 - Step 2: Create a Database User
 - Step 3: Whitelist IP Addresses
 
+### Queries of MongoDB (10:15 - 11:00)
+We want to read (and display) data from MongoDB. To do this, we will need to query, or request particular data from, MongoDB.
+[Find, Sort, Limit Data Tutorial Video](https://www.youtube.com/watch?v=Wf3Ubkg0b8c&list=PLetu2kRAyoeCvogwvGGq94QgATwfj5viJ)
+
+[Using .find() with a Variable Tutorial Video](https://www.youtube.com/watch?v=P3cJP1SPUyc&list=PLetu2kRAyoeCvogwvGGq94QgATwfj5viJ) 
+
+Clone down the stock query lab and code-along examples of how to use the .find() , .sort(), and  .limit() methods with the existing database of stock prices. Following the brief demonstration, allow students to jump into the lab and practice with those methods to query the data to produce the requested results. 
 
 
 
