@@ -86,6 +86,30 @@ We're going to write a program to asks the user what kind of gif they would like
    response = requests.get(endpoint).json( ) 
 - Add: print(response) to the end of the *getImageUrlFrom* function to view the data from your search 
 
+#### Part 4: Retrieve and request data for your query 
+- In app.py uncomment from model import *getImageUrlFrom*
+- In  the yourgif route, add image = getImageUrlFrom(“pugs”) 
+- Make sure you import requests in model.py
+- Run the program and make sure it works- if you search for pugs, the program should print the data from your query in your terminal.
+
+#### Part 5: Parse and narrow down your response 
+- Open the response in your browser. Use JSONView or similar extension to figure out your data structure 
+- Your first key is “data”.  Keep digging to find the specific data elements you want.  Try to specify the response in model.py to print the fixed height images.
+
+#### Part 6: Return the data to the user 
+- Rather than print, Return the data element you want in your *getImageUrlFrom* function 
+- In app.py set image=image in your render_template
+- Display the image from your query in yourgif.html,  <img src=”{{ image }}” />
+- Flask run to make sure it works before moving on 
+
+#### Part 7: Respond to different user queries 
+- Now, what happens if you request a cat gif?
+- In the yourgif route, create a variable called query that takes in the user’s query from the form in index.html   
+- In app.py, replace “pugs” with “query” in your route
+- In model.py replace “pugs” with “query” using string formatting endpoint = f”...{query}...”
+
+
+
 
 
 
