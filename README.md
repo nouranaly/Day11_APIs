@@ -27,7 +27,7 @@ Before heading into the Giphy API Lab, have students go through the process of b
 
 **To Get Started**
 
-1. Clone the Giphy API Demo: (modify the flask-api template to a giphy api) 
+1. Clone the Giphy API Demo: [Giphy Demo](https://github.com/nouranaly/Giphy_Demo.git)
 2. Flask Run. 
 
 **Questions for Students**
