@@ -119,8 +119,9 @@ We're going to write a program to asks the user what kind of gif they would like
 After the Giphy API lab, give students the chance to practice working with APIs by either: 
 * **Option 1:** Continue working on the Giphy API Lab (extensions, customize it, keep making it beautiful/ user friendly) 
 * **Option 2:**  Parsing and extracting JSON data through the [Jeopardy CLI Lab](https://github.com/upperlinecode/jeopardy-cli-python-apis) 
+* **Option 3:** Build a flask/API app using the Spoonacular API Lab 
 
-
+Frame to students that all 3 options allow them to work with APIs. If you want to explore what else you can build with the Giphy API then option 1 is a good fit.  If you wish to practice digging through nested data structures and display specific elements from a large data set that’s included within the lab then option 2 is a good fit. If you wish to build an app from scratch that takes in the user’s query and returns the results from their request, then option 3 is a good fit. 
 
 
 
