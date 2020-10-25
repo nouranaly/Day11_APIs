@@ -174,6 +174,7 @@ Create an app that allows users to find recipes based on the limits they set for
 - **APIs are useful when data changes quickly**- Stock prices are a great example of datasets that change quickly and it would make no sense to regenerate a dataset and download it every minute or every time there is a change in stock prices. (trip data) (user) 
 - **You can scoop a small piece of a larger data set**- Imagine creating a Taylor Swift fan page and wanting to display all of Taylor Swift’s tweets from twitter on your fan page. It doesn’t make much sense to download the entire twitter database, then filter out just Taylor Swift’s tweets. (user) 
 - **Security**- Using APIs, developers can control the exposure of code without having to expose their entire database. This allows you to send small amounts of information that the API then delivers and the server sends it back without you having to access the entire backend of the server. (provider) 
-
+---
+---
 
 
