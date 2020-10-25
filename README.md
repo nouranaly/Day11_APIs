@@ -55,7 +55,7 @@ At this point, students understand that only two gifs have been manually stored 
 **Take-away:** reveal to students that the hard work of compiling large data sets is already taken care of through APIs. While this process was made to be intentionally painful, it will pave the way for their understanding of why APIs provide a much more seamless and efficient way to request and retrieve data from data bases that have already been created.  
 
 --- 
-### Giphy API Lab 
+## Giphy API Lab 
 As you head into lab time, have students select from the following two options based on their preference: 
 * **Option 1:** If this is their first time working with APIs, provide them the option of doing the Giphy API Lab as a code-along with a teacher
 * **Option 2:** Students who are comfortable working with APIs can opt into completing the Giphy API Lab with a partner in a separate breakout room. 
@@ -108,7 +108,17 @@ We're going to write a program to asks the user what kind of gif they would like
 - In app.py, replace “pugs” with “query” in your route
 - In model.py replace “pugs” with “query” using string formatting endpoint = f”...{query}...”
 
+#### Extensions 
+- What if whatever the user types gets a “cat” search added to it?  So if they search for Beyonce, they get a “Beyonce cat” gif?
+- What if half the time the user gets what they searched for, and the other half the time, you serve them your favorite gif?
+- What if the user only gets the gif they want if they say “please” in front of their search?
+- Don’t take the first gif [0], take a random one.
+--- 
 
+## API Play Time (1) 
+After the Giphy API lab, give students the chance to practice working with APIs by either: 
+* **Option 1:** Continue working on the Giphy API Lab (extensions, customize it, keep making it beautiful/ user friendly) 
+* **Option 2:**  Parsing and extracting JSON data through the [Jeopardy CLI Lab](https://github.com/upperlinecode/jeopardy-cli-python-apis) 
 
 
 
