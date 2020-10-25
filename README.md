@@ -123,7 +123,7 @@ After the Giphy API lab, give students the chance to practice working with APIs 
 
 Frame to students that all 3 options allow them to work with APIs. If you want to explore what else you can build with the Giphy API then option 1 is a good fit.  If you wish to practice digging through nested data structures and display specific elements from a large data set that’s included within the lab then option 2 is a good fit. If you wish to build an app from scratch that takes in the user’s query and returns the results from their request, then option 3 is a good fit. 
 
-### Spoonacular API Lab 
+### Option 3: Spoonacular API Lab 
 ![spoonacular](https://media.giphy.com/media/10u6gt11vnm812/giphy.gif) 
 
 **The Goal:** We’re going to build a Flask app using the Spoonacular API. Your app should take in the user’s preference for what type of recipes they are interested in and return a list of recipes based on their request. 
@@ -145,4 +145,13 @@ Create an app that allows users to find recipes based on the limits they set for
 
 ![Note](https://media.giphy.com/media/f9kyJwcyoqSKoPLIo2/giphy.gif) 
 
+#### Extensions: 
+- Sort the recipes returned to the user by the type of cuisine 
+- Display the recipe results using bootstrap card components 
+- Build a form that allows the user to select a recipe from the results and view the cooking instructions (Hint: Use the “Get Analyzed Recipe Instructions” endpoint) 
+
+#### To Get Started: 
+- Go to https://spoonacular.com/food-api
+- Sign up for a developers key
+- Clone the flask API template:(https://github.com/upperlinecode/Flask-API-Template)  
 
