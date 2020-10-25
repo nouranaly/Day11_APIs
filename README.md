@@ -219,6 +219,31 @@ Time to write and store our own data in MongoDB.
 
 **Post Lunch Worktime (1:30 - 2:30)** [MongoDB Music Lab](https://github.com/upperlinecode/mongodb-music-lab) 
 
+---
+---
+## Day 13: Project Launch 
+### Overview
+**Students will be able to** 
+- Define an MVP for their project 
+- Separate concerns and assign group roles accordingly 
+- Iterate upon an MVP in ambitious but realistic steps 
+
+### Intro- Project Launch (9:30 - 11:00) 
+Students will spend the greater portion of the first half of the day engaging in the launch for their final projects. 
+Sequence for Project Launch [(Best reference on ULC Site)](https://teacherhub.upperlinecode.com/app/teach/day-4-btt-python/group-formation-guide)  
+1. Ideation
+2. Group Formation
+3. Minimum Viable Product
+
+By the end of the project launch- students should have met the 3 objectives in the overview. 
+
+### Project Planning Time (11:30 - 12:30) 
+Before students begin their initial planning time with their partners, mention that a section of tomorrow will be reserved for review sessions. While planning, groups should consider what they will need to incorporate in their final projects so they can better decide which sessions will serve them best. Encourage students to suggest topics that they wish to see covered in tomorrow’s review session in the micro-feedback, so you can better plan and accommodate for what topics are most needed to review. 
+
+### [GitHub Workflows](https://teacherhub.upperlinecode.com/app/teach/ftf-day-13/github-collaboration) and [Heroku Deployment](https://www.youtube.com/watch?v=eqk9BW2n4K0) (1:30 - 2:30) 
+
+
+
 
 
 
