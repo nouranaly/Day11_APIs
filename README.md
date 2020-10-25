@@ -154,4 +154,26 @@ Create an app that allows users to find recipes based on the limits they set for
 - Go to https://spoonacular.com/food-api
 - Sign up for a developers key
 - Clone the flask API template:(https://github.com/upperlinecode/Flask-API-Template)  
+---
+
+### Post Lunch Playtime: 
+1. Continue working on the Jeopardy, Giphy, or Spoonacular API/Flask app 
+2. Choose a new API and build your own API/Flask App with your partner 
+   - APIs to Consider Exploring: 
+      - Makeup API: https://github.com/twant/APIs-Lab
+      - Google Books API: https://developers.google.com/books
+      - Recipe API: https://developer.edamam.com/edamam-recipe-api
+      - NYTimes API: https://developer.nytimes.com/apis
+      - List of public APIs: https://github.com/public-apis/public-apis
+
+**EOD Reflection** 
+- What advantages do APIs provide developers?
+- What are some types of programs you could build that might need an API to reach their full potential?
+
+**Why Use APIs** 
+- **APIs are useful when data changes quickly**- Stock prices are a great example of datasets that change quickly and it would make no sense to regenerate a dataset and download it every minute or every time there is a change in stock prices. (trip data) (user) 
+- **You can scoop a small piece of a larger data set**- Imagine creating a Taylor Swift fan page and wanting to display all of Taylor Swift’s tweets from twitter on your fan page. It doesn’t make much sense to download the entire twitter database, then filter out just Taylor Swift’s tweets. (user) 
+- **Security**- Using APIs, developers can control the exposure of code without having to expose their entire database. This allows you to send small amounts of information that the API then delivers and the server sends it back without you having to access the entire backend of the server. (provider) 
+
+
 
