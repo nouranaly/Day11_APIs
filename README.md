@@ -201,11 +201,25 @@ Once the cluster is created on MongoDB, we need to do three things to complete t
 
 ### Queries of MongoDB (10:15 - 11:00)
 We want to read (and display) data from MongoDB. To do this, we will need to query, or request particular data from, MongoDB.
+
 [Find, Sort, Limit Data Tutorial Video](https://www.youtube.com/watch?v=Wf3Ubkg0b8c&list=PLetu2kRAyoeCvogwvGGq94QgATwfj5viJ)
 
 [Using .find() with a Variable Tutorial Video](https://www.youtube.com/watch?v=P3cJP1SPUyc&list=PLetu2kRAyoeCvogwvGGq94QgATwfj5viJ) 
 
 Clone down the stock query lab and code-along examples of how to use the .find() , .sort(), and  .limit() methods with the existing database of stock prices. Following the brief demonstration, allow students to jump into the lab and practice with those methods to query the data to produce the requested results. 
+
+### Push Data to MongoDB (11:30 - 12:30) - Community Event Board. 
+Time to write and store our own data in MongoDB. 
+
+**Part 1: Connect to MongoDB:** [Connecting to MongoDB, Writing Data Tutorial Video](https://www.youtube.com/watch?v=VGIjvB_yMjU&list=PLetu2kRAyoeCvogwvGGq94QgATwfj5viJ)
+
+**Part 2: Push Data to MongoDB**: Write Data Directly to MongoDB
+
+**Part 3: Using a Form to Collect Data:** [Using a Form to Write to MongoDB Tutorial Video](https://www.youtube.com/watch?v=VeJrZaPKhWA&list=PLetu2kRAyoeCvogwvGGq94QgATwfj5viJ)
+
+**Post Lunch Worktime (1:30 - 2:30)** [MongoDB Music Lab](https://github.com/upperlinecode/mongodb-music-lab) 
+
+
 
 
 
