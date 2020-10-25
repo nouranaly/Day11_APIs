@@ -54,6 +54,39 @@ At this point, students understand that only two gifs have been manually stored 
 
 **Take-away:** reveal to students that the hard work of compiling large data sets is already taken care of through APIs. While this process was made to be intentionally painful, it will pave the way for their understanding of why APIs provide a much more seamless and efficient way to request and retrieve data from data bases that have already been created.  
 
+--- 
+### Giphy API Lab 
+As you head into lab time, have students select from the following two options based on their preference: 
+* **Option 1:** If this is their first time working with APIs, provide them the option of doing the Giphy API Lab as a code-along with a teacher
+* **Option 2:** Students who are comfortable working with APIs can opt into completing the Giphy API Lab with a partner in a separate breakout room. 
+
+**The Goal**: We’re going to build a Flask app using the Giphy API. When it’s finished it will look something like this: 
+
+![Gifbot](https://media.giphy.com/media/NPdrfe4ox96zm8QCMW/giphy.gif)
+
+We're going to write a program to asks the user what kind of gif they would like to see and return a gif based on the user’s request. 
+
+#### Part 1: Getting Started
+- Go to developer.giphy.com 
+- Sign up for a developers key
+- Clone the flask API template:(https://github.com/upperlinecode/Flask-API-Template) 
+- Flask run 
+
+#### Part 2: Create a route for yourgif.html page 
+- Try submitting something in the form, figure out why it doesn’t work!
+- Create a route for (‘/yourgif’, methods=[‘GET’, ‘POST’]), which returns any text for now ex: “Yay” 
+- After confirming that your route works, render_template the yourgif.html page instead of the text. 
+
+#### Part 3: Write the API request
+- Go to https://developers.giphy.com/explorer
+- Choose an endpoint (you probably want “search”) 
+- Copy the URL
+- Go to the model.py file, create a variable called “endpoint” that stores your URL as a string inside the function *getImageUrlFrom*
+- Create a variable called “response” where the data from your URL will be stored and convert it to a JSON to view the data as a python dictionary 
+   response = requests.get(endpoint).json( ) 
+- Add: print(response) to the end of the *getImageUrlFrom* function to view the data from your search 
+
+
 
 
 
