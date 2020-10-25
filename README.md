@@ -176,5 +176,30 @@ Create an app that allows users to find recipes based on the limits they set for
 - **Security**- Using APIs, developers can control the exposure of code without having to expose their entire database. This allows you to send small amounts of information that the API then delivers and the server sends it back without you having to access the entire backend of the server. (provider) 
 ---
 ---
+## Day 12: Intro to MongoDB
+#### Overview
+**Students will be able to** 
+- Sign up for and configure a MongoDB account
+- In the MongoDB dashboard, create a database, create a database user, and whitelist IP addresses
+- Connect to MongoDB from a Flask app using PyMongo
+- Push data to MongoDB from a Flask app
+- Use a form to collect user data and store data to MongoDB
+- Query MongoDB for data using various methods
+- Sort and limit MongoDB query results
+
+### Intro (9:30 - 10:15) 
+Now that we have been building apps using flask, you might have recognized a need to store and retrieve data. This problem gives us a chance to explore some of the creative solutions that databases offer, which allows us to do just that. MongoDB is a database that you can use with any python/flask app in any project you are building. Whether its a website, a mobile app, or a desktop app, you’re probably working with some kind of data that you will need to store and fetch fast and efficiently without worrying about setup and data structures, and MongoDB is a great solution for that. 
+
+Frame to students that we will first take time to set up our MongoDB accounts and before we write data to MongoDB, we’ll play around with some of the built in methods in the PyMongo library that will allow us to read, request, and display particular data from MongoDB. 
+
+#### Initial Setup- Sign Up for MongoDB
+[Setting up MongoDB Account Tutorial Video](https://www.youtube.com/watch?v=LLbV4n-uKrA&list=PLetu2kRAyoeCvogwvGGq94QgATwfj5viJ)
+Once the cluster is created on MongoDB, we need to do three things to complete the database setup before we can connect to it from our app:[(Instructions Here)](https://teacherhub.upperlinecode.com/app/teach/ftf-day-12/databases-intro#create-a-database)  
+- Step 1: Create a Database
+- Step 2: Create a Database User
+- Step 3: Whitelist IP Addresses
+
+
+
 
 
